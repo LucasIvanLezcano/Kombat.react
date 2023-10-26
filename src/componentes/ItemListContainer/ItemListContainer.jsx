@@ -9,6 +9,7 @@ const ItemListContainer = () => {
     const {idCategoria} = useParams();
 
     useEffect(() => {
+
         const funcionProductos = idCategoria ? getProductosPorCategoria : getProductos;
 
         funcionProductos(idCategoria)

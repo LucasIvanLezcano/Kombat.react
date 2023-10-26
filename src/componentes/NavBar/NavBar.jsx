@@ -8,7 +8,7 @@ const NavBar = () => {
 
     <header>
       <Link to="/">
-        <img className='logo' src={"./imagenes/logo.1.png"} alt="Logo Kombat" />
+        <img className='logo' src={"../imagenes/logo.1.png"} alt="Logo Kombat" />
       </Link>
 
       <nav>
