@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 5px solid  #9fd7f3;
+    
+}
+
+.logo{
+    width: 100px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.color-nav{
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    padding: 3%;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color .2s, color .2s;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.color-nav:hover {
+    background-color: white;
+    color: black;
+}
